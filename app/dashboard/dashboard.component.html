@@ -10,25 +10,11 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="nav">
-        <nav>
-            <div class="nav">
-                <img src="/src/assets/Logo.png" alt="Logo">            
-        <div class="nav-left">
-        <a href="dashboard.html" class="nbutton">HOME</a>
-        <a href="create_form.html" class="nbutton">CREATE</a>
-        <a href="#services" class="nbutton">SUMMARY</a>
-        <a href="facebook.com" class="user">
-            <img src="/assets/User.png" alt="User" width="50px">
-        </a>
-    </div>
-    </div>
-    </nav>
 
-    </div>
     <div class="menu">
-    <button class="create" onclick="window.location.href='createform.component.css'"><img src="/assets/Add.png" alt="Add">CREATE</button>
-    <button class="summary" onclick="window.location.href='index.html'"><img src="/assets/Summary.png" alt="Summary">SUMMARY</button>
+    <a [routerLink]="['create']" class="create"><img src="/assets/Add.png">CREATE</a>
+    <a [routerLink]="['summary']" class="summary"><img src="/assets/Summary.png">SUMMARY</a>
+    
 
     </div>
  
@@ -83,6 +69,7 @@
     </div>
 
     <script src="./dashboard/dashboard.script.js"></script>
+    <router-outlet></router-outlet>
 
 </body>
 </html>

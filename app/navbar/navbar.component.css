@@ -48,7 +48,7 @@ body{
     }
 
     .user img{
-        margin-left: 10px;
+        margin-left: 0px;
         bottom: -5px;
         width: 50px;
         overflow: hidden;
@@ -299,7 +299,7 @@ body{
         
         .nav-left {
             position: absolute;
-            padding-left: 75vw;
+            padding-left: 35vw;
             margin-top: 40px;
             display: flex;
             flex-direction: grid;
@@ -311,7 +311,7 @@ body{
             font-family: "Poppins", sans-serif;
             color: #4F4A45;
             font-weight: 700;
-            margin-left: 25px;
+            margin-left: 15px;
             text-decoration: none;
             border: 2px solid transparent;
             padding: 5px;
@@ -336,7 +336,7 @@ body{
             position: absolute;
             overflow: hidden;
             margin-left: 220px; /* Adjust the left margin as needed */
-            margin-top: 60px; /* Adjust the top margin as needed */
+            margin-top: 40px; /* Adjust the top margin as needed */
             padding-top: 10px;
             display: flex;
             flex-direction: column;
@@ -344,7 +344,6 @@ body{
     
         .create,
         .summary {
-            text-decoration: none;
             font-size: 90px;
             text-align: center;
             width: 540px;
@@ -372,7 +371,7 @@ body{
             font-size: 38px;
             font-weight: 700;
             margin-left: 790px;
-            margin-top: 65px;
+            margin-top: 45px;
             text-decoration: none;
             
         }
@@ -382,7 +381,7 @@ body{
             position: relative;
             width: 520px;
             height: 230px;
-            margin-top: 125px;
+            margin-top: 105px;
             margin-left: 790px;
         }
         
@@ -392,7 +391,7 @@ body{
         
         .month{
             margin-left: 225px;
-            margin-top: 25px;
+            margin-top: 10px;
         }
 
         .slider-container {
